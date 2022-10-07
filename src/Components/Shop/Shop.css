@@ -14,3 +14,18 @@
     background-color: #FF99004D;
     padding: 30px;
 }
+
+.btn-review {
+    width: 232px;
+    height: 48px;
+    color: white;
+    background-color: #FF9900;
+    border-radius: 4px;
+    border: none;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.btn-review:hover {
+    background-color: orange;
+}
