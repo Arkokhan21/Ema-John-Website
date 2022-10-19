@@ -28,11 +28,13 @@ const Orders = () => {
                         cart.map(product => <ReviewItem key={product.id} product={product} handleRemoveItem={handleRemoveItem}></ReviewItem>)
                     }
                     {
-                        cart.length === 0 && <h2>No Items For Review. Please <Link to='/'>Shop</Link></h2>
+                        cart.length === 0 && <h2 style={{ textAlign: 'center' }}>No Items For Review. Please <Link to='/'>Shop</Link></h2>
                     }
                 </div>
                 <div className="cart-container">
-                    <Cart cart={cart} clearCart={clearCart}></Cart>
+                    <Cart cart={cart} clearCart={clearCart}>
+                        <Link to='/shipping'> <button className='btn-review'>Proceed Shipping</button></Link>
+                    </Cart>
                 </div>
             </div>
         </div>
