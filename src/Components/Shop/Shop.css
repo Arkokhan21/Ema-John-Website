@@ -26,6 +26,20 @@
     margin-top: 15px;
 }
 
+.pagination {
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+
+.pagination button {
+    margin-right: 10px;
+}
+
+.pagination .selected {
+    background-color: #FFE0B3;
+    width: 25px;
+}
+
 .btn-review:hover {
     background-color: orange;
 }
